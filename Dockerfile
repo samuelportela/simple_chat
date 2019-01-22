@@ -2,8 +2,6 @@ FROM node:11.7.0
 
 RUN mkdir /src
 
-RUN uname -a
-
 WORKDIR /src
 COPY . /src
 RUN npm config set strict-ssl false
